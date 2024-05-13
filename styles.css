@@ -1,0 +1,112 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color: #fff;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  align-items: center;
+  width: 100%;
+}
+
+#title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#description {
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+}
+
+#survey-form {
+  padding: 10px;
+  display: block;
+  margin: 5px auto;
+  width: 100%;
+}
+
+#heading { margin: 20px auto; }
+
+.container {
+  padding: 30px;
+  width: 40%;
+  margin: 30px auto;
+  background-color: #002d55;
+}
+
+label { margin-bottom: 10px; }
+
+#name,
+#email,
+#number,
+#dropdown {
+  display: inline-block;
+  margin: 15px auto;
+  width: 350px;
+  height: 35px;
+  border-radius: 3px;
+  border: none !important;
+  padding: 2px;
+}
+
+#dropdown,
+option,
+#number,
+textarea {
+  color: rgb(65,61,61) !important;
+}
+
+hr { margin-bottom: 20px; }
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin: 20px auto 20px;
+  border: none !important;
+  outline: none !important;
+  border: none;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 32px auto 20px;
+  border: none !important;
+  outline: none;
+}
+
+textarea {
+  display: inline-block;
+  margin: 15px auto;
+  width: 350px;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+input:focus { outline: 2px solid  #82b1dd;}
+
+#submit {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  color: rgb(33, 33, 88);
+  cursor: pointer;
+  border: none;
+}
+
+#submit:hover {
+  background-color: rgb(33, 33, 88);
+  color: #fff;
+}
+
+
