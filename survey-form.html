@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">SurveyForm</h1>
+    <p id="description">pleace complete the form correctly</p>
+    <div class="container">
+        <form action="#" id="survey-form">
+            <label for="name">Name:</label><br>
+            <input type="text"  id="name" placeholder="your name" required>
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="email"  id="email" placeholder="your email" required>
+            <br>
+            <label for="number">Age:</label><br>
+            <input type="number"  id="number" min="18" max="50" placeholder="your sge" required>
+            <br>
+            <label for="dropdown">what is your favorite Suject?</label>
+            <br>
+            <select name="" id="dropdown"><br>
+                <option selected disabled>select your subject</option>
+                <option value="web" >Web development</option>
+                <option value="Programming">Software Programming</option>
+                <option value="network">Network Engineering</option>
+            </select>
+            <br>
+            <hr>
+            <label for="">what is your Gender?</label><br>
+            <label for="male">Male</label><input type="radio" name="gender" id="male">
+            <label for="female">Female</label> <input type="radio" name="gender" id="female" checked>
+            <br>
+            <label for="">what are your hobbies?</label><br>
+            <input type="checkbox"id="reading"><label for="reading">ReadingBooks</label>
+            <input type="checkbox"id="codding"  checked><label for="codding">Codding</label>
+            <input type="checkbox"id="gym"><label for="gym">Gym</label>
+            <br>
+            <hr>
+            <label for="bio">Biography(optional)</label><br>
+            <br>
+            <textarea placeholder="Bio" placeholder="your bio" cols="30" rows="10"></textarea>
+            <br>
+            <button id="submit">Submit</button>
+        </form> 
+    </div>
+</body>
+</html>
