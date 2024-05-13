@@ -6,7 +6,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
   background: url(bg.jpg) no-repeat;
   background-size: cover;
   align-items: center;
@@ -107,5 +107,3 @@ input:focus { outline: 2px solid  #82b1dd; }
   background-color: rgb(33, 33, 88);
   color: #fff;
 }
-
-
