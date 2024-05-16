@@ -12,13 +12,13 @@
     <p id="description">pleace complete the form correctly</p>
     <div class="container">
         <form action="#" id="survey-form">
-            <label for="name">Name:</label><br>
+            <label for="name" id="name-label">Name:</label><br>
             <input type="text"  id="name" placeholder="your name" required>
             <br>
-            <label for="email">Email:</label><br>
+            <label for="email" id="email-label">Email:</label><br>
             <input type="email"  id="email" placeholder="your email" required>
             <br>
-            <label for="number">Age:</label><br>
+            <label for="number" id="number-label">Age:</label><br>
             <input type="number"  id="number" min="18" max="50" placeholder="your sge" required>
             <br>
             <label for="dropdown">what is your favorite Subject?</label>
@@ -32,13 +32,13 @@
             <br>
             <hr>
             <label for="">Select your Gender :</label><br>
-            <label for="male">Male</label><input type="radio" name="gender" id="male">
-            <label for="female">Female</label> <input type="radio" name="gender" id="female" checked>
+            <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label><br>
+           <input type="radio" name="gender" value="female" id="female" checked><label for="female">Female</label> 
             <br>
             <label for="">what are your hobbies?</label><br>
-            <input type="checkbox"id="reading"><label for="reading">ReadingBooks</label>
-            <input type="checkbox"id="codding"  checked><label for="codding">Codding</label>
-            <input type="checkbox"id="gym"><label for="gym">Gym</label>
+            <input type="checkbox" id="reading" value="reading"><label for="reading">ReadingBooks</label><br>
+            <input type="checkbox" id="codding" value="codding" checked><label for="codding">Codding</label><br>
+            <input type="checkbox" id="gym" value="gym"><label  for="gym">Gym</label>
             <br>
             <hr>
             <label for="bio">Biography(optional)</label><br>
