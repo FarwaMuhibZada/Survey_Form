@@ -40,7 +40,10 @@ body {
   background-color: #002d55;
 }
 
-label { margin-bottom: 10px; }
+label { 
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
 
 #name,
 #email,
@@ -107,7 +110,3 @@ input:focus { outline: 2px solid  #82b1dd; }
   background-color: rgb(33, 33, 88);
   color: #fff;
 }
-label {
-  padding-left: 5px;
-}
-
